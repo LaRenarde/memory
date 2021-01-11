@@ -179,7 +179,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   let classement = [];
   classement = getClassement(classement, liste);
-
+  
   let images = [
     { src: "image0.jpeg", statut: "cachée", nbClic: 0 },
     { src: "image1.jpeg", statut: "cachée", nbClic: 0 },
